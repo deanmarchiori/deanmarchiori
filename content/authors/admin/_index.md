@@ -43,4 +43,4 @@ title: Dean Marchiori
 
 Dean Marchiori is a Statistician and Senior Data Scientist. Dean currently leads the data science team for Endeavour Energy where his work focuses on modelling bushfire and vegetation risk on the electricity network. In 2019, he was named one of the top 10 analytics leaders in Australia by the Institute of Analytics Professionals of Australia. He is also recognised as an Accredited Statistician with the Statistical Society of Australia, and sits on the SSA committee for Statistical Computing and Visualisation.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "https://github.com/deanmarchiori/CV/raw/master/CV/CV.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "https://github.com/deanmarchiori/CV/raw/master/CV/CV.pdf" "newtab" >}}CV{{< /staticref >}}.
