@@ -5,7 +5,7 @@ address:
   country: Australia
   #postcode: "94305"
   region: VIC
-  street: State Library Victoria
+  street:
 all_day: true
 authors: []
 date: "2019-11-28T18:00:00Z"
@@ -21,7 +21,7 @@ links:
   icon_pack: fab
   name: Follow
   url: https://twitter.com/deanmarchiori
-location: The State Library, Melbourne, VIC
+location: The State Library Victoria
 projects:
 publishDate: "2017-01-01T00:00:00Z"
 slides: 

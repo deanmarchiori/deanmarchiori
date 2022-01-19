@@ -5,7 +5,7 @@ address:
   country: Australia
   #postcode: "94305"
   region: NSW
-  street: The Occidental
+  street:
 all_day: true
 authors: []
 date: "2021-12-01T18:00:00Z"
@@ -21,7 +21,7 @@ links:
   icon_pack: fab
   name: Follow
   url: https://twitter.com/deanmarchiori
-location: The Occidential, Sydney, NSW
+location: The Occidential
 projects:
 publishDate: "2017-01-01T00:00:00Z"
 slides: 
@@ -30,6 +30,6 @@ tags: []
 title: SSA NSW - Early Career and Student Statisticians Event 2021
 url_code: ""
 url_pdf: ""
-url_slides: "uploads_SSA_2021.pdf"
+url_slides: "uploads/SSA_2021.pdf"
 url_video: ""
 ---

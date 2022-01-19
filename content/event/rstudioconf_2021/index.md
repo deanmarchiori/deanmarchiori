@@ -31,5 +31,5 @@ title: How reproducible am I? A retrospective on a year of commercial data scien
 url_code: ""
 url_pdf: ""
 url_slides: "uploads/rstudio_global_2021.pdf"
-url_video: ""
+url_video: https://resources.rstudio.com/resources/rstudioglobal-2021/how-reproducible-am-i-a-retrospective-on-a-year-of-commercial-data-science-projects-in-r/
 ---

@@ -21,7 +21,7 @@ links:
   icon_pack: fab
   name: Follow
   url: https://twitter.com/deanmarchiori
-location: SMART Infrastructure Facility, UOW, Wollongong Australia.
+location: SMART Infrastructure Facility
 projects:
 publishDate: "2017-01-01T00:00:00Z"
 slides: 

@@ -31,5 +31,5 @@ title: Going Full Circle - Smarter Data People Podcast
 url_code: ""
 url_pdf: ""
 url_slides: ""
-url_video: ""
+url_video: https://smarterdatapeople.com/episode/dean-marchiori/
 ---
