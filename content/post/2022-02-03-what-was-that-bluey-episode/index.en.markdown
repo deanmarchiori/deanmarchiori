@@ -1,0 +1,50 @@
+---
+title: What was that Bluey Episode?
+author: Dean Marchiori
+date: '2022-02-03'
+slug: what-was-that-bluey-episode
+categories: []
+tags:
+  - Shiny
+  - R
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2022-02-03T20:50:01+11:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+Does your child explain [Bluey](https://en.wikipedia.org/wiki/Bluey_(2018_TV_series)) episodes 
+to you but you have no idea what episode they are talking about and can't handle
+flicking through all 130 of them?  
+
+Problem solved.   
+
+This website lets you type in the vague descriptions of a small child and it will
+return a mathematically ranked list of closest matching Bluey episodes.  
+
+https://deanmarchiori.shinyapps.io/blueysearch/ 
+
+![](images/bluey.png)
+
+## Development notes  
+
+The website is a Shiny app (deployed to shinyapps.io), which contains all 130 episode titles, descriptions
+and thumbnails. These were scraped from IMDB and cached. For this code see my [github](https://github.com/deanmarchiori/bluey-search).
+
+All of the episode descriptions were tokenized into 'terms' using the {tidytext} R package 
+and formed into a Document-Term-Matrix. Rather than use the typical term counts,
+a binary indicator was used if a term appears in an episode. This was preferred as the user's text input
+is unlikely to really mimic the detail of an episode description, which threw
+the similarity measure out a bit. 
+
+Once a user inputs text, the Shiny app dynamically forms a new term vector and 
+compares it to the all-episode's matrix using cosine distance. The episodes are then ranked
+based on smallest cosine distance and displayed to the users.  
+
+For the source code visit: https://github.com/deanmarchiori/bluey-search

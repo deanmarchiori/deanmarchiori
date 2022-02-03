@@ -6,7 +6,7 @@ education:
     institution: Macquarie University
     year: 
   - course: Bachelor of Science (Mathematics) with University Medal 
-    institution: Chrles Sturt Univerity
+    institution: Charles Sturt University
     year: 
   - course: Master of Applied Finance (Financial Markets and Trading)
     institution: 
