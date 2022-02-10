@@ -31,5 +31,5 @@ title: Keeping Up with Data - Podcast S2E1
 url_code: ""
 url_pdf: ""
 url_slides: ""
-url_video: ""
+url_video: "https://www.youtube.com/watch?v=QC6yLHkG3u8"
 ---
