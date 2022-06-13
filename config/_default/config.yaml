@@ -6,7 +6,7 @@ theme: "starter-hugo-academic"
 
 title: Dean Marchiori # Website name
 baseurl: 'https://deanmarchiori.rbind.io/' # Website URL
-copyright: '' # Footer text, e.g. '© {year} Me'
+copyright: '© 2022 Dean Marchiori' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE

@@ -35,7 +35,7 @@ https://deanmarchiori.shinyapps.io/blueysearch/
 ## Development notes  
 
 The website is a Shiny app (deployed to shinyapps.io), which contains all 130 episode titles, descriptions
-and thumbnails. These were scraped from IMDB and cached. For this code see my [github](https://github.com/deanmarchiori/bluey-search).
+and thumbnails. 
 
 All of the episode descriptions were tokenized into 'terms' using the {tidytext} R package 
 and formed into a Document-Term-Matrix. Rather than use the typical term counts,
